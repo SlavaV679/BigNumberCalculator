@@ -1,0 +1,22 @@
+﻿<Window x:Class="BigNumberCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BigNumberCalculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="856">
+    <Grid>
+        <Label Content="Число 1" HorizontalAlignment="Left" Margin="47,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Число 2" HorizontalAlignment="Left" Margin="47,152,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnChooseFile1" Content="Выберите файл" HorizontalAlignment="Left" Margin="692,48,0,0" VerticalAlignment="Top" Click="btnChooseFile1_Click"/>
+        <Button x:Name="btnChooseFile2" Content="Выберите файл" HorizontalAlignment="Left" Margin="692,160,0,0" VerticalAlignment="Top" Click="btnChooseFile2_Click"/>
+        <TextBox x:Name="txtBoxNum1"  HorizontalAlignment="Left" Margin="111,49,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559" Height="94"/>
+        <TextBox x:Name="txtBoxNum2" HorizontalAlignment="Left" Margin="111,160,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559" Height="94"/>
+        <TextBox x:Name="txtBoxResult" HorizontalAlignment="Left" Margin="111,278,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559" Height="94"/>
+        <Button x:Name="btnResult" Content="Получить результат" HorizontalAlignment="Left" Margin="692,279,0,0" VerticalAlignment="Top" Click="btnResult_Click"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="39,271,0,0" VerticalAlignment="Top"/>
+        <Label Content="сложения" HorizontalAlignment="Left" Margin="39,290,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
